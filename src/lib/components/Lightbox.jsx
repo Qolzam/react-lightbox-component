@@ -46,10 +46,10 @@ export default class Lightbox extends React.Component {
       )
 
     return (
-      <div className='lightbox-container'>
+      <React.Fragment>
         {images}
         {container}
-      </div>
+      </React.Fragment>
     )
   }
 }
